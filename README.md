@@ -111,3 +111,5 @@ The project follows these steps to develop a YouTube comment sentiment analysis 
 7. **Dashboard Development**
    - Method: FastAPI, HTML, CSS, and data visualization.
    - Display sentiment distribution, individual video analysis, and overall audience sentiment.
+   
+Gemma 4 (31B)
