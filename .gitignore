@@ -1,0 +1,42 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Large datasets and collected data
+data/*.csv
+data/*.txt
+
+# Research papers
+paper/*.pdf
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Generated files
+*.log
+*.tmp
+output/
+results/
+models/
+checkpoints/
+
+# Build and cache
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+
+# macOS
+.DS_Store
