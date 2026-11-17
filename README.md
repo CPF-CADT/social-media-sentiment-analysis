@@ -78,3 +78,36 @@ A web application that allows users to track supported social media posts, class
 
 - Platform API restrictions may limit comment collection.
 - Romanized Khmer, slang, and sarcasm may reduce classification accuracy.
+
+## Project Roadmap
+
+The project follows these steps to develop a YouTube comment sentiment analysis system:
+
+1. **Data Collection**
+   - Method: YouTube Data API.
+   - Collect video metadata, comments, video IDs, and timestamps.
+
+2. **Data Labeling**
+   - Method: LLM-assisted labeling with human verification.
+   - Assign three sentiment classes: Positive, Negative, and Neutral.
+   - Label original comments before text cleaning.
+
+3. **Data Preprocessing**
+   - Method: NLP text cleaning.
+   - Apply lowercasing, URL and noise removal, tokenization, and stopword removal while preserving meaningful sentiment expressions.
+
+4. **Feature Extraction**
+   - Method: TF-IDF Vectorization.
+   - Convert cleaned comments into numerical feature vectors.
+
+5. **Model Training**
+   - Method: Supervised Machine Learning.
+   - Train and compare Naïve Bayes, Logistic Regression, and SVM using an 80/20 train-test split.
+
+6. **Model Evaluation**
+   - Method: Classification Metrics.
+   - Evaluate using Accuracy, Precision, Recall, F1-score, and Confusion Matrix.
+
+7. **Dashboard Development**
+   - Method: FastAPI, HTML, CSS, and data visualization.
+   - Display sentiment distribution, individual video analysis, and overall audience sentiment.
